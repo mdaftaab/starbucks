@@ -1,0 +1,38 @@
+@media (max-width:768px){
+.category {
+    width: 95%;
+    flex-wrap: wrap;
+}
+
+.container {
+    width: 100%;
+    padding: 0 20px;
+}
+
+.category-box {
+    flex-direction: column;
+    flex: 0 0 50%;
+}
+
+section.handcrafted-curations h2 {
+    text-align: center;
+}
+
+.slider-box .right {
+    width: 100%;
+    padding: 20px;
+    flex-direction: row;
+}
+
+.slider-box .left {
+    width: 100%;
+}
+.hero .slider-box {
+    flex-direction: column;
+}
+
+.slider-box .left .caption {
+    justify-content: center;
+    padding: 20px;
+}
+}
